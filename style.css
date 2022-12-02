@@ -20,7 +20,6 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    border: solid thin red;
 }
 
 .hamburguer {
@@ -41,9 +40,10 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    width: 30vw;
+    width: 50vw;
     height: 100%;
-    background-image: linear-gradient(135deg,#667eea 0,#764ba2 100%);
+    background-image: linear-gradient(135deg,#6baf6b 0,#764ba2 100%);
+    font-weight: 700;
     display: flex;
     flex-direction:column;
     justify-content: space-evenly;
@@ -54,7 +54,7 @@ header {
 }
 
 .menu-navegacion a {
-    color: red;
+    color: aqua;
     text-decoration: none;
 }
 
