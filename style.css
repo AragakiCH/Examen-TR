@@ -26,7 +26,7 @@ header {
     position: fixed;
     top: 30px;
     right: 30px;
-    background-color: #fff;
+    background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -40,7 +40,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    width: 50vw;
+    width: 15vw;
     height: 100%;
     background-image: linear-gradient(135deg,#6baf6b 0,#764ba2 100%);
     font-weight: 700;
@@ -56,6 +56,8 @@ header {
 .menu-navegacion a {
     color: aqua;
     text-decoration: none;
+    font-weight: 700;
+    font-size: x-large;
 }
 
 .contenedor {
@@ -101,7 +103,7 @@ header {
 .subtitulo {
     text-align: center;
     font-weight: 300;
-    color: #9f8ad0;
+    color: rgba(83, 75, 96, 1);
     margin-bottom: 40px;
     font-size: 40px;
 }
@@ -151,6 +153,66 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.n-miembros {
+    position: absolute;
+    font-weight: 700;
+    font-size: 2rem;
+    color:rgba(159, 106, 234, 1);
+    top: 202%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0,5);
+}
+
+.n1-miembros {
+    position: absolute;
+    font-weight: 700;
+    font-size: 2rem;
+    color:rgba(159, 106, 234, 1);
+    top: 202%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0,5);
+}
+
+.n2-miembros {
+    position: absolute;
+    font-weight: 700;
+    font-size: 2rem;
+    color:rgba(159, 106, 234, 1);
+    top: 202%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0,5);
+}
+
+.n3-miembros {
+    position: absolute;
+    font-weight: 700;
+    font-size: 2rem;
+    color:rgba(159, 106, 234, 1);
+    top: 315%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0,5);
+    display: block;
+    object-fit: cover;
+}
+
+.n4-miembros {
+    position: absolute;
+    font-weight: 700;
+    font-size: 2rem;
+    color:rgba(159, 106, 234, 1);
+    top: 315%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0,5);
+    display: block;
+    object-fit: cover;
+    margin-top: 15px;
 }
 
 
@@ -231,6 +293,8 @@ header {
     margin-top: 20px ;
     width: 100%;
     font-weight: 400;
+    color:rgba(159, 106, 234, 1);
+    font-size: 1rem;
 }
 
 
