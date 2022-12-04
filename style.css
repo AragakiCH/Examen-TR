@@ -155,67 +155,6 @@ header {
     flex-wrap: wrap;
 }
 
-.n-miembros {
-    position: absolute;
-    font-weight: 700;
-    font-size: 2rem;
-    color:rgba(159, 106, 234, 1);
-    top: 202%;
-    left: 23%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0,5);
-}
-
-.n1-miembros {
-    position: absolute;
-    font-weight: 700;
-    font-size: 2rem;
-    color:rgba(159, 106, 234, 1);
-    top: 202%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0,5);
-}
-
-.n2-miembros {
-    position: absolute;
-    font-weight: 700;
-    font-size: 2rem;
-    color:rgba(159, 106, 234, 1);
-    top: 202%;
-    left: 77%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0,5);
-}
-
-.n3-miembros {
-    position: absolute;
-    font-weight: 700;
-    font-size: 2rem;
-    color:rgba(159, 106, 234, 1);
-    top: 315%;
-    left: 23%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0,5);
-    display: block;
-    object-fit: cover;
-}
-
-.n4-miembros {
-    position: absolute;
-    font-weight: 700;
-    font-size: 2rem;
-    color:rgba(159, 106, 234, 1);
-    top: 315%;
-    left: 77%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0,5);
-    display: block;
-    object-fit: cover;
-    margin-top: 15px;
-}
-
-
 .img-galeria {
     width: 30%;
     display: block;
